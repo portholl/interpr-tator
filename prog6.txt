@@ -1,0 +1,17 @@
+program
+var a, b : int;
+begin 
+    a := 10;
+    read(b);
+    write(b);
+    if (a - b > 5) then begin
+        write(1);
+        a := 6;
+        while ( a > 5 ) do begin
+            write(a);
+            a:= a - 1;
+        end
+    end
+    else
+         write(0);
+end@

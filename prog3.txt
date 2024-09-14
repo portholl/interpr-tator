@@ -1,0 +1,10 @@
+program
+var a : int;
+begin 
+    a := 0;
+    if (a > 0) then begin
+        write(a);
+        end
+    else 
+        write(0); 
+end@

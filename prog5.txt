@@ -1,0 +1,14 @@
+program
+var a, b : int;
+begin 
+    a := 10;
+    read(b);
+    write(b);
+    while ( a > 5) do begin
+        if (a - b > 7) then begin
+            write(1);
+        end
+        else write(0);
+        a:= a-1;
+    end
+end@

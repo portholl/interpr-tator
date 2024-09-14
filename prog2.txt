@@ -1,0 +1,7 @@
+program
+var a : int;
+begin 
+    a:= 0;
+    a:= a+2;
+    write(a);
+end@

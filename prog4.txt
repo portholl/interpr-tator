@@ -1,0 +1,11 @@
+program
+var a, b : int;
+begin 
+    a := 10;
+    while ( a > 5) do begin
+        a:= a-1;
+        read(b);
+        write(b);
+        write (a + 1);
+    end
+end@
